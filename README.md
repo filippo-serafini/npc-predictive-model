@@ -13,4 +13,6 @@ The 'Federated Learning' folder keeps the federated approach developed using Flo
 - [server_app.py](FederatedLearning/my-app/my_app/server_app.py) contains the logic for the server app.
 - [task.py](FederatedLearning/my-app/my_app/task.py) keeps all the functions used by both server and clients for training, validate and test.
 - [NPCdataset.py](FederatedLearning/my-app/my_app/NPCdataset.py) script contains the dataset class to wrap the jobs for training, validation and testing.
-- [NPCnetwork.py](FederatedLearning/my-app/my_app/NPCnetwork.py) script reports the model of the nm.
+- [NPCnetwork.py](FederatedLearning/my-app/my_app/NPCnetwork.py) script reports the model of the nn.
+
+The 'Datasets' folder contains all the datasets for training, validation and test obtained aggregating PM100 and FDATA jobs.
