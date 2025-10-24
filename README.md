@@ -4,7 +4,7 @@ Repo for the project activity on Node Power Consumption ML model for HPC jobs. I
 ## Repository structure
 The 'Traditional' folder contains the centralized approach to train the network. In particular:
 - [FDATAReader.py](Traditional/FDATAReader.py) and [PM100Reader.py](Traditional/PM100Reader.py) allows you to read the parquet files containing the jobs features.
-- [NPCdataset.py](Traditional/PM100Reader.py) script contains the dataset class to wrap the jobs for training, validation and testing.
+- [NPCdataset.py](Traditional/NPCdataset.py) script contains the dataset class to wrap the jobs for training, validation and testing.
 - [NPCnetwork.py](Traditional/NPCnetwork.py) script reports the model of the nn and all the training, validation and test functions.
 
 The 'Federated Learning' folder keeps the federated approach developed using Flower.ai framework.
