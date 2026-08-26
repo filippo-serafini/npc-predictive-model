@@ -1,5 +1,5 @@
 # Npc-predictive-model
-Repo for the project activity on Node Power Consumption ML model for HPC jobs. It contains both traditional and federated approaches.
+Repo for the project activity on Node Power Consumption ML model for HPC jobs. It contains both centralized and federated learning approaches.
 
 ## Repository structure
 The 'Traditional' folder contains the centralized approach to train the network. In particular:
